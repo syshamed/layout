@@ -1,0 +1,14 @@
+<div>
+  <md-toolbar color="primary">
+    <button md-icon-button [md-menu-trigger-for]="menu">
+      <md-icon>menu</md-icon>
+    </button> SPSS
+    <span class="app-toolbar-filler"></span>
+    <button md-button >LANGUAGE</button>
+    <button md-button >LOGOUT</button>
+    <span class="app-toolbar-filler"></span>
+  </md-toolbar>
+  <md-menu  #menu="mdMenu">
+    <a md-menu-item *ngFor="let item of menuItems" [routerLink]="item.link" class="nav-link" routerLinkActive="router-link-active" href="">{{item.caption}}</a>
+  </md-menu>
+</div>

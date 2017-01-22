@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  height: 100%;
+  border: 4px solid rgba(0, 0, 0, 0.5);
+}
+
+.sidenav-content {
+  padding: 20px;
+  display: flex;
+  height: 100%;
+}
+
+.sidenav {
+  padding: 20px;
+  width: 200px;
+}
+
+html, body, material-app, md-sidenav-container, .sidenav-content {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}

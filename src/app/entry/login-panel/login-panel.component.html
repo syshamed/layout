@@ -1,0 +1,14 @@
+<md-card>
+  <md-card-title>
+    Login form
+  </md-card-title>
+  
+  <form novalidate [formGroup]="form">
+      <input formControlName="username" placeholder="Username">
+      <br>
+      <input formControlName="password" placeholder="Password">
+    <md-card-actions align="end">
+      <button md-raised-button color="primary">SUBMIT</button>
+    </md-card-actions>
+  </form>
+</md-card>

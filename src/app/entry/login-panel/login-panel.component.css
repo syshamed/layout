@@ -1,0 +1,29 @@
+input.ng-invalid.ng-touched {
+  border-bottom: 1px solid red;
+}
+
+md-card {
+  width: 500px;
+  margin: 8px;
+}
+
+input {
+  width: 20%;
+  box-sizing: border-box;
+  height: 36px;
+  margin: 8px 200px;
+  font-size: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.18);
+  font: inherit;
+  outline: none;
+}
+
+[md-button] {
+  margin: 0 -6px !important;
+}
+
+
+form md-card-actions {
+  margin-bottom: -24px;
+}

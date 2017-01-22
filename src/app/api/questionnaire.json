@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "name": "Gender",
+      "type": "single-response",
+      "answers": [ "Male" , "Female"],
+      "responses":[]
+    },
+    {
+      "name": "Location",
+      "type": "single-response",
+      "answers": ["Cairo" , "Alexandria" , "Tanta"],
+      "responses":[]
+    },
+    {
+      "name": "Education",
+      "type": "multiple-response",
+      "answers": ["BSC" , "MSC" , "PHD"],
+      "responses":[]
+    },
+  ]
+}

@@ -1,0 +1,16 @@
+.app-toolbar-filler {
+  flex: 1 1 auto;
+}
+
+.nav-link {
+  padding: 0 1em;
+  width: 100px;
+  color: rgba(000,000,000,.6);
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-link.router-link-active {
+  color: rgba(000,000,000, 1);
+}
+

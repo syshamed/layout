@@ -1,0 +1,31 @@
+<md-sidenav-container  class="container">
+  <md-sidenav  #sidenav mode="side" opened="true" class= "sidenav">
+        <md-tab-group>
+          <md-tab  label="Questions">Questions</md-tab>
+          <md-tab  label="Routing">Routing</md-tab>
+        </md-tab-group>
+  </md-sidenav>
+
+  <div class="sidenav-content">
+    <md-tab-group>
+          <md-tab  label="Design">
+            Design
+          </md-tab>
+          <md-tab  label="Preview Question">
+            Preview Question
+            <ul >
+            <li *ngFor="let questions of questionnaire" | async>
+
+             <span> {{questions}}</span>
+
+            </li>
+          </ul>
+          </md-tab>
+    </md-tab-group>
+  </div>
+  <md-sidenav align="end" #rightnav mode="side" opened="true" class= "sidenav">
+    <md-tab-group>
+      <md-tab  label="Explore/Properties">Explore/Properties</md-tab>
+    </md-tab-group>
+  </md-sidenav>
+</md-sidenav-container>
